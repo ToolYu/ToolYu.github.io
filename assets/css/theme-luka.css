@@ -336,6 +336,14 @@ body.theme-luka .institution-logo {
   object-position: center;
 }
 
+body.theme-luka .institution-logo-nyu-stern {
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+  object-position: 53% 23%;
+  transform: none;
+}
+
 body.theme-luka .experience-content {
   flex: 1;
 }
@@ -579,6 +587,11 @@ body.theme-luka strong {
   }
 
   body.theme-luka .institution-logo {
+    width: 56px;
+    height: 56px;
+  }
+
+  body.theme-luka .institution-logo-nyu-stern {
     width: 56px;
     height: 56px;
   }
