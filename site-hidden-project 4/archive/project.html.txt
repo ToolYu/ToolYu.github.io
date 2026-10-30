@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Qianyu Zhang - Projects</title>
+  <meta name="description" content="Selected projects by Qianyu Zhang.">
+  <meta name="keywords" content="Qianyu Zhang, projects, machine learning, data science">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="assets/css/font_sans_serif.css">
+  <link rel="stylesheet" href="assets/css/theme-luka.css">
+</head>
+<body class="theme-luka">
+  <nav class="top-nav">
+    <div class="nav-container">
+      <div class="nav-left">
+        <a href="index.html">Home</a>
+        <span class="nav-separator" aria-hidden="true">｜</span>
+        <a href="project.html">Project</a>
+        <span class="nav-separator" aria-hidden="true">｜</span>
+        <a href="photography.html">Photography</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+    <header class="sidebar">
+      <div class="profile-card">
+        <a class="image avatar">
+          <img src="36E90F2A-C328-4D5E-8834-35F6E1EC823D.jpeg" alt="Qianyu Zhang portrait">
+        </a>
+
+        <h1 class="site-name">Qianyu Zhang</h1>
+        <p class="site-email">qz1104@nyu.edu</p>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/qianyu-zhang-bill/" target="_blank" rel="noopener" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/ToolYu" target="_blank" rel="noopener" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="Qianyu%20Zhang%20-%20Resume(DS).pdf" target="_blank" rel="noopener" title="Resume"><i class="fa-solid fa-file-arrow-down"></i></a>
+        </div>
+
+        <div class="visitor-card">
+          <div class="visitor-card-title">Project Page</div>
+          <div class="visitor-card-body">
+            Selected machine learning, NLP, and agentic AI projects.
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="section-body">
+          <div class="card project-entry">
+            <div class="project-entry-content">
+              <p class="project-entry-title"><strong>Agentic AI for Automating People Discovery &amp; Outreach</strong></p>
+              <p class="project-entry-link"><a href="https://github.com/ToolYu/Routed-AI-Agent-Project" target="_blank" rel="noopener">GitHub Link</a></p>
+              <p class="project-entry-desc">Developed a LangChain-based agentic workflow for recruiters and job seekers, connecting candidate discovery with personalized outreach and channel-ready message generation.</p>
+            </div>
+            <div class="project-entry-media">
+              <img src="project3.png" alt="Agentic AI outreach project image" class="project-entry-image">
+            </div>
+          </div>
+
+          <div class="card project-entry">
+            <div class="project-entry-content">
+              <p class="project-entry-title"><strong>Financial LLM Evaluation Benchmark</strong></p>
+              <p class="project-entry-link"><a href="#" target="_blank" rel="noopener">GitHub (Private)</a></p>
+              <p class="project-entry-desc">Integrated FinanceIQ, FinEval, and BizFinBench into a unified evaluation workflow for financial large language models, supporting model comparison and routing strategy analysis across finance-specific tasks.</p>
+            </div>
+            <div class="project-entry-media">
+              <img src="project1.png" alt="Financial LLM Evaluation Benchmark project image" class="project-entry-image project-entry-image-project1">
+            </div>
+          </div>
+
+          <div class="card project-entry">
+            <div class="project-entry-content">
+              <p class="project-entry-title"><strong>Field-Experiment-AI-Agent</strong></p>
+              <p class="project-entry-link"><a href="https://github.com/Six-Persimmon/Field-Experiment-AI-Agent" target="_blank" rel="noopener">GitHub Link</a></p>
+              <p class="project-entry-desc">Developed a CrewAI-based framework for consumer behavior experiments during my NYU research assistantship. The workflow connects survey design and refinement, Qualtrics and MTurk deployment, and simulated response generation.</p>
+            </div>
+            <div class="project-entry-media">
+              <img src="project2.png" alt="Field-Experiment-AI-Agent project image" class="project-entry-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>
+        &copy; 2026 Qianyu Zhang. All rights reserved.
+      </p>
+    </footer>
+  </div>
+
+</body>
+</html>
